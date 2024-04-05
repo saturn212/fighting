@@ -266,6 +266,7 @@ def restart():
     player_2 = Player_2({'run': pl2_run_image, 'idle': pl2_idle_image, 'attack': pl2_attack_image})
     player1_group.add(player_1)
     player2_group.add(player_2)
+
 def game_lvl():
     fon.update()
     player1_group.draw(sc)
